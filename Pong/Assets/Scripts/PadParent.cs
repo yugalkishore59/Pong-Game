@@ -13,7 +13,6 @@ public class PadParent : MonoBehaviour
     }
 
     protected void Move(){
-        //rb2d.AddForce(direction * speed);
         rb2d.velocity = direction * speed;
     }
 }
